@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketMatch — FC GenV</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="fullname">Nom complet : </label>
+            <input type="text" name="fullname" id="fullname" required>
+        </div>
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="phone">Télephone : </label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="matches">Matches : </label>
+            <select name="macthes" id="matches">
+                <option value="FC GenV vs OC Youssoufia — 15/03/2026">FC GenV vs OC Youssoufia — 15/03/2026</option>
+                <option value="FC GenV vs FC Bayern — 22/03/2026">FC GenV vs FC Bayern — 22/03/2026</option>
+                <option value="FC GenV vs Madrid CF — 05/04/2026">FC GenV vs Madrid CF — 05/04/2026</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend> Places :</legend>
+                <label for="Tribune">Tribune</label>
+                <input type="radio" name="place" id="Tribune">
+                <label for="Virage">Virage</label>
+                <input type="radio" name="Virage" id="Virage">
+                <label for="Pelouse">Pelouse</label>
+                <input type="radio" name="Pelouse" id="Pelouse">
+            </fieldset>
+        </div>
+        <div>
+            <label for="nombreticket">Nombre de tickets</label>
+            <input type="number" max="10" min="1" name="">
+        </div>
+        <div>
+            <label for="comment">Commentaire : </label>
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+        <div>
+            <label for="accept">J'accepte les conditions générales </label>
+            <input type="checkbox" name="accept" id="accept">
+        </div>
+        <button type="submit">Réserver mon ticket</button>
+    </form>
+</body>
+
+</html>
