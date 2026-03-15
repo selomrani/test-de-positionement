@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.navbar ul {
+/* .navbar ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -24,7 +24,7 @@ header{
 
 .navbar li a:hover {
     color: red;
-}
+} */
 #nextmatch{
     border-left: red 4px solid;
     background: white;
